@@ -16,7 +16,7 @@ const uninav = () => {
 
       {/* Navbar */}
       <div class="navbar1">
-        <img src="image/logo.png" alt="" />
+        <img src="/image/logo.png" alt="" />
 
         <a href="#pla">Planets</a>
         <a href="#Exo">Exoplanets</a>
@@ -31,53 +31,53 @@ const uninav = () => {
         <p>Each Planet has its own story to tell, hidden in the depths of space.</p>
         <div className="planets">
           <div className="box">
-            <img src="../public/Planet Picture/Mercury_in_true_color-removebg-preview.png" alt="Mercury" />
+            <img src="/Planet Picture/Mercury_in_true_color-removebg-preview.png" alt="Mercury" />
             <h2>Mercury</h2>
             <p>Mercury is the smallest and fastest planet, zipping around the Sun in just 88 days! It's full of craters, just like our Moon, and has extreme temperatures—super hot during the day and freezing cold at night. If you were on Mercury, you could see the Sun rise, set, and rise again all in one day!
             </p>
 
           </div>
           <div className="box">
-            <img src="../public/Planet Picture/Venuse-removebg-preview.png" alt="Mercury" />
+            <img src="/Planet Picture/Venuse-removebg-preview.png" alt="Mercury" />
             <h2>Venus</h2>
             <p>Venus is Earth’s "sister" because they’re about the same size, but Venus is way hotter—hot enough to melt lead! It’s covered in thick clouds of poisonous gas that trap heat, making it the hottest planet. On Venus, a day is longer than a year, and the planet spins backward, so the Sun rises in the west and sets in the east!
             </p>
 
           </div>
           <div className="box">
-            <img src="../public/Planet Picture/earth-blue-planet-globe-planet-87651-removebg-preview.png" alt="Mercury" />
+            <img src="/Planet Picture/earth-blue-planet-globe-planet-87651-removebg-preview.png" alt="Mercury" />
             <h2>Earth</h2>
             <p>Earth is our home, and it’s just the right place for life to thrive! It has water, air, and a perfect distance from the Sun to keep us warm but not too hot. Earth is the only planet we know with oceans, forests, and amazing animals, including us!
             </p>
 
           </div>
           <div className="box">
-            <img src="../public/Planet Picture/Mars-removebg-preview.png" alt="Mercury" />
+            <img src="/Planet Picture/Mars-removebg-preview.png" alt="Mercury" />
             <h2>Mars</h2>
             <p>Mars, the Red Planet, is known for its rusty red color, giant volcanoes, and massive dust storms. It’s a cold desert world, but scientists think there might have been water on Mars long ago, and they’re still searching for signs of ancient life!</p>
 
           </div>
           <div className="box">
-            <img src="../public/Planet Picture/images-removebg-preview (1).png" alt="Mercury" />
+            <img src="/Planet Picture/images-removebg-preview (1).png" alt="Mercury" />
             <h2>Jupiter</h2>
             <p>Mars, the Red Planet, is known for its rusty red color, giant volcanoes, and massive dust storms. It’s a cold desert world, but scientists think there might have been water on Mars long ago, and they’re still searching for signs of ancient life!</p>
 
           </div>
           <div className="box">
-            <img className='sa' src="../public/Planet Picture/Saturen-removebg-preview.png" alt="Mercury" />
+            <img className='sa' src="/Planet Picture/Saturen-removebg-preview.png" alt="Mercury" />
             <h2>Saturn</h2>
             <p>Saturn is famous for its stunning rings made of ice and rock. It’s a gas giant, like Jupiter, and is so light that it could float in water—if you could find a bathtub big enough! Saturn has more than 80 moons, including Titan, which has lakes of liquid methane!
             </p>
 
           </div>
           <div className="box">
-            <img src="../public/Planet Picture/Urenes-removebg-preview.png" alt="Mercury" />
+            <img src="/Planet Picture/Urenes-removebg-preview.png" alt="Mercury" />
             <h2>Uranus</h2>
             <p>Uranus is a bit of a weirdo in our solar system—it spins on its side! It’s a cold, icy giant with faint rings and a blue-green color because of methane gas in its atmosphere. Uranus takes a super long time to go around the Sun—84 Earth years for just one trip!</p>
 
           </div>
           <div className="box">
-            <img src="../public/Planet Picture/neptune-removebg-preview.png" alt="Mercury" />
+            <img src="/Planet Picture/neptune-removebg-preview.png" alt="Mercury" />
             <h2>Neptune</h2>
             <p>Neptune is the windiest planet, with wild storms and supersonic winds that blow faster than the speed of sound! It’s a deep blue color and is far, far away from the Sun, making it a very cold place. Neptune has 14 moons and even has faint rings, like Saturn.
             </p>
@@ -102,7 +102,7 @@ const uninav = () => {
             <b>5. WASP-12b :</b>  A hot, egg-shaped gas giant being stretched by its star’s gravity.  <br />
             <b>6. Gliese 581c :</b>  An Earth-like planet in the habitable zone but closer to its star, possibly like Venus.  <br />
           </p>
-          <img  id="Photo"src="../public/image/maxresdefault.jpg" alt="" />
+          <img  id="Photo"src="/image/maxresdefault.jpg" alt="" />
          
         </div>
       </div>
@@ -117,7 +117,7 @@ const uninav = () => {
 <b> Comets</b>, on the other hand, are often described as cosmic snowballs. They originate from the outer reaches of the solar system, such as the Kuiper Belt and Oort Cloud, and are made of ice, dust, and rocky material. When comets venture close to the Sun, they heat up, causing their icy nucleus to release gas and dust, which forms a glowing coma and a spectacular tail that always points away from the Sun. This makes comets the solar system's glittery visitors.   <br />
 <b> Meteors</b> are the visible streaks of light we see in the sky, known as "shooting stars," when tiny space rocks called meteoroids enter Earth's atmosphere and burn up due to intense friction. If these meteoroids survive the fiery journey through the atmosphere and land on Earth, they become meteorites. So, while asteroids are big rocky bodies, comets are icy objects with brilliant tails, and meteors are the bright streaks created by smaller fragments burning up in our atmosphere. Each of these celestial objects adds its own unique sparkle to the cosmic dance of our solar system!
 </p>
-<img id="Photo"src="../public/image/downlo.jpg" alt="" />
+<img id="Photo"src="/image/downlo.jpg" alt="" />
 </div>
 </div>
         
@@ -134,7 +134,7 @@ const uninav = () => {
      <b>Irregular galaxies</b> don't have a regular shape and often look like chaotic clouds of stars and gas. They can be the result of galactic collisions Sor gravitational interactions, giving them a more uneven and patchy appearance.  <br />
      <b>Dwarf galaxies</b> are much smaller and can be found orbiting larger galaxies. Despite their size, they still contain millions of stars and can have a significant impact on their larger neighbors. Each type of galaxy contributes to the incredible diversity and complexity of the universe, showcasing the endless variety of cosmic structures that exist beyond our own Milky Way.  <br />
       </p>
-      <img id='Photo'src="../public/image/Galaxy.jpg" alt="" />
+      <img id='Photo'src="/image/Galaxy.jpg" alt="" />
     </div>
     </div>
    
@@ -156,7 +156,7 @@ const uninav = () => {
        </p>
         
         <div className="p">
-       <img id="Photo" src="../public/image/Star.jpg" alt="" />
+       <img id="Photo" src="/image/Star.jpg" alt="" />
        <h2>Stars</h2>
        </div>
        </div>

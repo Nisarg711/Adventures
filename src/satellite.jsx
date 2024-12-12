@@ -54,7 +54,7 @@ GOES Satellites: Provide real-time weather data and images of Earth’s atmosphe
 </div>
 </div>
 <div className="pi">
-  <img id="Photo"src="../public/image/Satelite.jpg" alt="" />
+  <img id="Photo"src="/image/Satelite.jpg" alt="" />
   <h3>Indian Satelite</h3>
   </div>
 </div>

@@ -91,61 +91,61 @@ const Game3 = () => {
     <div className="body3">
       <section className="memory-game">
         <div className="memory-card" data-framework="ISRO">
-          <img className="front-face" src="../public/Agencylogo/isro.png" alt="ISRO" />
-          <img className="back-face" src="../Scientists/Back.jpg" alt="Back_of_card" />
+          <img className="front-face" src="/Agencylogo/isro.png" alt="ISRO" />
+          <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
         </div>
         <div className="memory-card" data-framework="ISRO">
           <h4 className="front-face">ISRO INDIA</h4>
-          <img className="back-face" src="../Scientists/Back.jpg" alt="Back_of_card" />
+          <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
         </div>
 
         <div className="memory-card" data-framework="roscosmos">
-          <img className="front-face" src="../public/Agencylogo/roscosmos.png" alt="ROSCOSMOS" />
-          <img className="back-face" src="../Scientists/Back.jpg" alt="Back_of_card" />
+          <img className="front-face" src="/Agencylogo/roscosmos.png" alt="ROSCOSMOS" />
+          <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
         </div>
         <div className="memory-card" data-framework="roscosmos">
           <h4 className="front-face">ROSCOSMOS RUSSIA</h4>
-          <img className="back-face" src="../Scientists/Back.jpg" alt="Back_of_card" />
+          <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
         </div>
 
         <div className="memory-card" data-framework="NASA">
-          <img className="front-face" src="../public/Agencylogo/nasa.png" alt="NASA" />
-          <img className="back-face" src="../Scientists/Back.jpg" alt="Back_of_card" />
+          <img className="front-face" src="/Agencylogo/nasa.png" alt="NASA" />
+          <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
         </div>
         <div className="memory-card" data-framework="NASA">
           <h4 className="front-face">NASA USA</h4>
-          <img className="back-face" src="../Scientists/Back.jpg" alt="Back_of_card" />
+          <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
         </div>
 
         <div className="memory-card" data-framework="europe">
-          <img className="front-face" src="../public/Agencylogo/esa.png" alt="European space agency" />
-          <img className="back-face" src="../Scientists/Back.jpg" alt="Back_of_card" />
+          <img className="front-face" src="/Agencylogo/esa.png" alt="European space agency" />
+          <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
         </div>
         <div className="memory-card" data-framework="europe">
           <h4 className="front-face">EUROPEAN SPACE AGENCY</h4>
-          <img className="back-face" src="../Scientists/Back.jpg" alt="Back_of_card" />
+          <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
         </div>
 
         <div className="memory-card" data-framework="japan">
-          <img className="front-face" src="../public/Agencylogo/jaxa.png" alt="JAPANESE SPACE AGENCY" />
-          <img className="back-face" src="../Scientists/Back.jpg" alt="Back_of_card" />
+          <img className="front-face" src="/Agencylogo/jaxa.png" alt="JAPANESE SPACE AGENCY" />
+          <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
         </div>
         <div className="memory-card" data-framework="japan">
           <h4 className="front-face">JAXA JAPAN</h4>
-          <img className="back-face" src="../Scientists/Back.jpg" alt="Back_of_card" />
+          <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
         </div>
 
         <div className="memory-card" data-framework="china">
-          <img className="front-face" src="../public/Agencylogo/cnsa.png" alt="CHINESE SPACE AGENCY" />
-          <img className="back-face" src="../Scientists/Back.jpg" alt="Back_of_card" />
+          <img className="front-face" src="/Agencylogo/cnsa.png" alt="CHINESE SPACE AGENCY" />
+          <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
         </div>
         <div className="memory-card" data-framework="china">
           <h4 className="front-face">CNSA CHINA</h4>
-          <img className="back-face" src="../Scientists/Back.jpg" alt="Back_of_card" />
+          <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
         </div>
       </section>
     </div>
   );
-}
+};
 
 export default Game3;

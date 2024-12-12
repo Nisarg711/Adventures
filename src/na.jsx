@@ -55,7 +55,7 @@ const nav = () => {
 
   
   <video autoPlay loop muted playsInline className="back">
-        <source src="./public/video/video.mp4" type="video/mp4" />
+        <source src="/video/video.mp4" type="video/mp4" />
          
       </video> 
 

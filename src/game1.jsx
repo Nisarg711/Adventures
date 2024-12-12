@@ -88,30 +88,30 @@ const game1 = () => {
     <div className='body1'>
       <section className="memory-game">
     <div className="memory-card" data-framework="apj">
-      <img className="front-face" src="Scientists/A._P._J._Abdul_Kalam.jpg" alt="APJ Abdul Kalam" />
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back" />
+      <img className="front-face" src="/Scientists/A._P._J._Abdul_Kalam.jpg" alt="APJ Abdul Kalam" />
+      <img className="back-face" src="/Scientists/Back.jpg" alt="Back" />
     </div>
     <div className="memory-card" data-framework="apj">
       <h4 className = "front-face">Dr. APJ Abdul Kalam</h4>
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back" />
+      <img className="back-face" src="/Scientists/Back.jpg" alt="Back" />
     </div>
 
     <div className="memory-card" data-framework="jc">
-      <img className="front-face" src="Scientists/JC_Bose.jpg" alt="J C Bose" />
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back" />
+      <img className="front-face" src="/Scientists/JC_Bose.jpg" alt="J C Bose" />
+      <img className="back-face" src="/Scientists/Back.jpg" alt="Back" />
     </div>
     <div className="memory-card" data-framework="jc">
     <h4 className = "front-face">J C Bose</h4>
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back" />
+      <img className="back-face" src="/Scientists/Back.jpg" alt="Back" />
     </div>
 
     <div className="memory-card" data-framework="cv">
-      <img className="front-face" src="Scientists/cv_raman.jpg" alt="Angular" />
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back" />
+      <img className="front-face" src="/Scientists/cv_raman.jpg" alt="Angular" />
+      <img className="back-face" src="/Scientists/Back.jpg" alt="Back" />
     </div>
     <div className="memory-card" data-framework="cv">
     <h4 className = "front-face">C V Raman</h4>
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back" />
+      <img className="back-face" src="/Scientists/Back.jpg" alt="Back" />
     </div>
 
     <div className="memory-card" data-framework="homi">
@@ -120,25 +120,25 @@ const game1 = () => {
     </div>
     <div className="memory-card" data-framework="homi">
     <h4 className = "front-face">Homi J Bhabha</h4>
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back" />
+      <img className="back-face" src="/Scientists/Back.jpg" alt="Back" />
     </div>
 
     <div className="memory-card" data-framework="kalpana">
-      <img className="front-face" src="Scientists/Kalpana_chavla.jpg" alt="Kalpana Chawla" />
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back" />
+      <img className="front-face" src="/Scientists/Kalpana_chavla.jpg" alt="Kalpana Chawla" />
+      <img className="back-face" src="/Scientists/Back.jpg" alt="Back" />
     </div>
     <div className="memory-card" data-framework="kalpana">
     <h4 className = "front-face">Kalpana Chawla</h4>
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back" />
+      <img className="back-face" src="/Scientists/Back.jpg" alt="Back" />
     </div>
 
     <div className="memory-card" data-framework="rakesh">
-      <img className="front-face" src="Scientists/Rakesh_sharma_edit.jpg" alt="Rakesh Sharma" />
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back" />
+      <img className="front-face" src="/Scientists/Rakesh_sharma_edit.jpg" alt="Rakesh Sharma" />
+      <img className="back-face" src="/Scientists/Back.jpg" alt="Back" />
     </div>
     <div className="memory-card" data-framework="rakesh">
     <h4 className = "front-face">Rakesh Sharma</h4>
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back" />
+      <img className="back-face" src="/Scientists/Back.jpg" alt="Back" />
     </div>
   </section>
     </div>

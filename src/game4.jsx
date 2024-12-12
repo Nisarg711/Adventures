@@ -99,69 +99,63 @@ useEffect(()=>{
 
   return (
     <div className={"body4"}>
-      
-      <section className="memory-game">
-    <div className="memory-card" data-framework="orion">
-      <img className="front-face" src="../public/Constitutes/orion.jpg" alt="ORION"  />
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back_of_card" />
-      
-    </div>
-    <div className="memory-card" data-framework="orion">
-        <h4 className="front-face"> Orion
-            (Mrugashirsh)</h4>
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back_of_card" />
-    </div>
-
-    <div className="memory-card" data-framework="Big Dipper">
-      <img className="front-face" src="../public/Constitutes/bigdipper.jpg" alt="BIG DIPPER"/> 
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back_of_card" />
-    </div>
-    <div className="memory-card" data-framework="Big Dipper">
+    <section className="memory-game">
+      <div className="memory-card" data-framework="orion">
+        <img className="front-face" src="/Constitutes/orion.jpg" alt="ORION" />
+        <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
+      </div>
+      <div className="memory-card" data-framework="orion">
+        <h4 className="front-face"> Orion (Mrugashirsh)</h4>
+        <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
+      </div>
+  
+      <div className="memory-card" data-framework="Big Dipper">
+        <img className="front-face" src="/Constitutes/bigdipper.jpg" alt="BIG DIPPER" />
+        <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
+      </div>
+      <div className="memory-card" data-framework="Big Dipper">
         <h4 className="front-face">BIG DIPPER (SAPTARSHI)</h4>
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back_of_card" />
-    </div>
-
-    <div className="memory-card" data-framework="Scorpion">
-      <img className="front-face" src="../public/Constitutes/scorpio.png" alt="SCORPION" />
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back_of_card" />
-    </div>
-    <div className="memory-card" data-framework="Scorpion">
-       <h4 className="front-face">SCORPIO 
-        (Vrushchik)</h4>
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back_of_card" />
-    </div>
-
-    <div className="memory-card" data-framework="Leo">
-      <img className="front-face" src="../public/Constitutes/leo.jpg" alt="LEO" />
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back_of_card" />
-    </div>
-    <div className="memory-card" data-framework="Leo">
+        <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
+      </div>
+  
+      <div className="memory-card" data-framework="Scorpion">
+        <img className="front-face" src="/Constitutes/scorpio.png" alt="SCORPION" />
+        <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
+      </div>
+      <div className="memory-card" data-framework="Scorpion">
+        <h4 className="front-face">SCORPIO (Vrushchik)</h4>
+        <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
+      </div>
+  
+      <div className="memory-card" data-framework="Leo">
+        <img className="front-face" src="/Constitutes/leo.jpg" alt="LEO" />
+        <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
+      </div>
+      <div className="memory-card" data-framework="Leo">
         <h4 className="front-face">LEO (SINH)</h4>
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back_of_card" />
-    </div>
-
-    <div className="memory-card" data-framework="Pisces">
-      <img className="front-face" src="../public/Constitutes/pisces.jpeg" alt="PISCES" />
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back_of_card" />
-    </div>
-    <div className="memory-card" data-framework="Pisces">
-        <h4 className="front-face">PISCES
-            (MEEN)</h4>
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back_of_card" />
-    </div>
-
-    <div className="memory-card" data-framework="Canis major">
-      <img className="front-face" src="../public/Constitutes/canismjor.png" alt="CANIS MAJOR" />
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back_of_card" />
-    </div>
-    <div className="memory-card" data-framework="Canis major">
-        <h4 className="front-face"> CANIS MAJOR
-            (SHWAN)</h4>
-      <img className="back-face" src="Scientists/Back.jpg" alt="Back_of_card" />
-    </div>
-  </section>
-
+        <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
+      </div>
+  
+      <div className="memory-card" data-framework="Pisces">
+        <img className="front-face" src="/Constitutes/pisces.jpeg" alt="PISCES" />
+        <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
+      </div>
+      <div className="memory-card" data-framework="Pisces">
+        <h4 className="front-face">PISCES (MEEN)</h4>
+        <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
+      </div>
+  
+      <div className="memory-card" data-framework="Canis major">
+        <img className="front-face" src="/Constitutes/canismjor.png" alt="CANIS MAJOR" />
+        <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
+      </div>
+      <div className="memory-card" data-framework="Canis major">
+        <h4 className="front-face">CANIS MAJOR (SHWAN)</h4>
+        <img className="back-face" src="/Scientists/Back.jpg" alt="Back_of_card" />
+      </div>
+    </section>
   </div>
+  
   )
 }
 
