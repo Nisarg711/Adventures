@@ -1,8 +1,3 @@
 # React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Astral_Adventures:Explore the Unexplored!!!
+This website is designed to provide information related to Space by diving into the realm of celestial objects. It also gives brief information about ISRO-Indian Space Research Organisation, a renowned Space Agency of India. The website also puts forward the missions adopted by the agency as well as their upcoming projects. To make this website even more interesting for the young generation, the website has several card games to sharpen their brains and enhance their knowledge about space.
