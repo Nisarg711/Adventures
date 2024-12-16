@@ -39,6 +39,51 @@ h1{
 /* Utility */
 
 #Pic{
-    width: 200px;
-    height: 300px;
+    width: 155px;
+    height: 215px;
 }
+
+@media screen and (max-width:1260px)
+{
+    #APJ{
+        margin: 10px;
+        text-align: center;
+    }
+    h1{
+        margin: 0px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1100px) {
+   .Science{
+    grid-template-columns: none;
+   }
+    
+}
+
+@media  screen and (max-width:430px) {
+    #Pic{
+        width: 140px;
+        height: 130px;
+    }
+    .boxes{
+        margin: 4px;
+        padding: 0px;
+    }
+    h4{
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+}
+@media screen and (max-width:380px)
+{
+    .boxes p{
+        font-size: 15px;
+    }
+    .boxes b{
+        font-size: 15px;
+    }
+}
+
