@@ -1,8 +1,13 @@
+.Project{
+ 
+     text-align: center;
+     justify-content: center;
+}
+
 #ISRO{
     color:  #efd96b;
-    margin-left: 250px;
-    margin-right: 90px;
-    
+     width: auto;
+     margin: 10px;
     text-decoration: underline;
 }
 
@@ -13,17 +18,30 @@
     margin: 10px;
 }
 
+#ISRO3{
+    background-color:#086a15;
+    margin: 10px 10px;
+}
+
 h5{
     color: aquamarine;
     margin: 5px;
 }
 
 .page1{
-    margin: 250px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 20px;
 }
 
 .page2{
-    margin: 42px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 20px;
 }
 
 .page1 p,.page2 p{
@@ -31,6 +49,7 @@ h5{
 }
 
 .project1,.project2,.project3,.project4,.project5{
+    width: 80vw;
     border: 10px solid red;
     border-radius: 10px;
     margin: 10px;
@@ -38,3 +57,21 @@ h5{
     background-color:#540254;
 }
 
+
+#pro112{
+  margin-top: 10px;
+  margin-left: auto;
+  color: #0acc24;
+}
+
+@media  (max-width: 978px) {
+    #ISRO{
+        font-size: 30px;
+    }
+
+    .page1 p,.page2 p{
+         font-size: 20px;
+    }
+
+  }
+  
