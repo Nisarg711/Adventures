@@ -1,14 +1,24 @@
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .info  h4{
     color:  #efd96b;
 }
 
-#first{
-    margin-left: 30%;
+#first1{
     font-size: 25px;
     margin-bottom: 60px;
+    margin-left: 36%;
 }
 .info{
     margin: 10px;
+}
+
+.Sata{
+    margin-left: 20px;
 }
 
 .Sata h4{
@@ -38,4 +48,37 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.famous h4{
+    font-size: 20px;
+    color: aqua;
+}
+
+.famous h3{
+    font-size: 15px;
+}
+.highlight {
+    font-weight: bold; /* Makes the text bold */
+    color: #ff5722; /* Adds a highlight color (adjust as needed) */
+  }
+  
+  .fam{
+    margin: 5px;
+  }
+
+@media (max-width: 950px) {
+    .name{
+        flex-direction: column;
+    }
+
+    #first1{
+        margin-left: 20%;
+    }
+}
+
+@media  (max-width: 450px){
+    .Sata{
+        margin-left: 90px;
+    }
 }
