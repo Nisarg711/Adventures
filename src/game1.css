@@ -53,3 +53,9 @@
 .front-face {
   transform: rotateY(180deg);
 }
+
+@media (max-width: 978px)  {
+  .front-face, .back-face {
+    padding: 6px;
+  }
+}
