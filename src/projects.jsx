@@ -3,9 +3,9 @@ import './project.css'
 
 const projects = () => {
   return (
-    <div>
+    <div className='Project'>
 
-      <h4>You can listen to the music in the midst of niso can acheive great things -Vikarm Sarabhai</h4>
+      <h4 id='pro112'>You can listen to the music in the midst of noise can acheive great things -Vikarm Sarabhai</h4>
       <div className="page1">
       <h1 id='ISRO' >ISRO Past Achievements</h1>
       <div className="project1">
@@ -17,17 +17,17 @@ const projects = () => {
 
 <h5 id='ISRO3'>b.	Chandrayaan -2:</h5>
 <p>Main objective of Chandrayaan-2 mission was to explore the unexplored part of the Moon which is South Pole of the Moon. The mission is designed to expand the lunar scientific knowledge through detailed study of topography, seismography, mineral identification and distribution, surface chemical composition, thermo-physical characteristics of top soil and composition of the tenuous lunar atmosphere, leading to a new understanding of the origin and evolution of the Moon. It consisted of Orbiter, Lander and a rover to fulfil its objective. Later on the lander crashed onto Moon’s surface due to loss of control (caused by software glitch) during final phase of descent.</p>
-<h5>c.	Chandrayaan-3:</h5>
+<h5 id='ISRO3'>c.	Chandrayaan-3:</h5>
 <p>Chandrayaan-3 is a follow-on mission to Chandrayaan-2 to demonstrate end-to-end safe capability in safe landing and roving on the lunar surface. On 23rd August 2023, India became the first country to touch down the near the lunar south pole. However, lander was not built to withstand the cold temperatures of the lunar night. The propulsion module, still operational, transited back to a high Earth orbit from lunar orbit on 22 November 2023 for continued scientific observations of Earth. One of the objective of this mission is conducting and observing experiments on the materials available on the lunar surface to better understand the composition of the Moon.</p>
 </div>
 <div className="project2">
 <h3 id='ISRO2'>2.	Mangalyaan Programme</h3>
-<h5>a.	Mars Orbiter Mission (Mangalyaan):</h5>
+<h5 id='ISRO3'>a.	Mars Orbiter Mission (Mangalyaan):</h5>
 <p>Mars Orbiter Mission was a space probe launched on 5 November 2013 by Indian Space Research Organisation(ISRO). It was India’s first interplanetary mission and it made ISRO fourth agency to reach Mars orbit. It made India the first Asian nation to reach the Martian orbit and first nation to do so in maiden attempt. The main objectives of the project were Exploration of the Mars surface features by studying the morphology, topography and mineralogy, study the constituents of Martian atmosphere including methane and CO2 using remote sensing techniques, study the dynamics if the upper atmosphere of Mars, effects of solar wind and radiation and the escapes the volatiles to outer surface. On 2 October 2022, it was reported that the orbiter had irrecoverably lost communications with Earth after entering long eclipse period in April 2022 that it was not designed to survive.</p>
 </div>
 <div className="project3">
 <h3 id='ISRO2'>3.	Aditya Programme</h3>
-<h5>a.	Aditya-L1:</h5>
+<h5 id='ISRO3'>a.	Aditya-L1:</h5>
 <p>Aditya-L1 is a coronagraphy spacecraft for studying the solar atmosphere, designed and developed by the Indian Space Research Organisation (ISRO) and various other Indian Space Research Institutes. It is orbiting at about 1.5 million km from Earth in a halo orbit around the Lagrange point 1 (L1) between the Earth and the Sun, where it will study the solar atmosphere, solar magnetic storms, and their impact on the environment around the Earth. Main objectives of this missions are to observe the physical particle environment around its position, to determine the sequence of processes in multiple layers below the corona that lead to solar eruptions, to study space weather, and the origin, composition and dynamics of solar wind.</p>
 </div>
 </div>
