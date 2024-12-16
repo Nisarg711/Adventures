@@ -2,6 +2,7 @@ import React from 'react'
 import './agency.css'
 const agency = () => {
     return (
+        <div>
         <div className='isro'>
            <div className='head flex'><h1 style={{margin:"20px"}}>Indian Space Research Organisation</h1>
           
@@ -24,6 +25,7 @@ const agency = () => {
 </li>
 <div className="quote">ENERGY and PERSISTANCE conquer all Things...</div>
             </ul>
+        </div>
         </div>
     )
 }
