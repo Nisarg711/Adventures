@@ -58,3 +58,9 @@
     align-items: center;
     color: rgb(12, 2, 26);
   }
+
+  @media (max-width: 978px)  {
+    .front-face, .back-face {
+      padding: 10px;
+    }
+  }
