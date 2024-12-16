@@ -23,8 +23,20 @@
   }
 
   .Gamecon img{
+    
     width: 280px;
     height: 405px;
+  }
+
+  @media  (max-width: 978px) {
+    .Gamecon img{
+      height: 292px;
+      width: 200px;
+    }
+      .box10{
+        height: 74vh;
+        width: 221px;
+      }
   }
 
   
