@@ -65,6 +65,6 @@
 
   @media (max-width: 978px)  {
     .front-face, .back-face {
-      padding: 0px;
+      padding: 10px;
     }
   }
