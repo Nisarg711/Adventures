@@ -1,7 +1,10 @@
 .isro{
     font-size: 20px;
     margin: 30px;
+    position: relative;
 }
+
+
 
 ul{
     position: relative;
@@ -26,6 +29,25 @@ ul{
 
 .flex{
     display: flex;
+}
+
+@media (min-width:620) and(max-width: 978px)  {
+   
+    .isro h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 620px) {
+    .isro h1{
+        padding: 3px;
+        margin: 5px;
+        font-size: 25px;
+    }
+
+    .isro  ul li{
+        font-size: 15px;
+    }
 }
 
 
