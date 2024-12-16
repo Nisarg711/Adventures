@@ -1,3 +1,18 @@
+.hello{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.hello h1{
+  margin: 0;
+}
+
+.hello h5{
+    margin-bottom: 14px;
+}
 .info1{
     display: flex;
     justify-content: center;
@@ -19,6 +34,36 @@
     margin-left:10px ;
 }
 
+.image  h4{
+    color: #17d9be;
+}
 #first{
     color:  #efd96b;
+    font-family: "Caveat", cursive;
+        font-size: 25px;
+        margin-bottom: 60px;
+    
+
+}
+
+@media (max-width:700px) {
+    .info1{
+        flex-direction: column;
+    }
+
+   .info1 img{
+    margin-bottom: 10px;
+    height: 300px;
+    width: 250px;
+   }
+
+   .hello h1{
+    font-size: 35px;
+   }
+}
+
+@media (max-width:400px) {
+    .hello h1{
+        font-size: 25px;
+       }
 }
