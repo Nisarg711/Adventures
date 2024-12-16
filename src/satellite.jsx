@@ -2,12 +2,11 @@ import React from 'react'
 import './satelite.css'
 const satellite = () => {
   return (
-    <div>
-      <h1>SATELLITES
-</h1>
+    <div className='top'>
+      <h1>SATELLITES</h1>
   
   <div className="Sata">
-<p id='first'>The Journey has just begun…..</p>
+<p id='first1'>The Journey has just begun…..</p>
 <h4>What Are Satellites?</h4>
 <p>
 Satellites are objects launched into orbit around Earth or other planets to perform various functions. They can be natural, like the Moon, or artificial, like those we launch into space.</p>
@@ -47,14 +46,22 @@ Astrosat: India’s first dedicated multi-wavelength space observatory, launched
 <div className="info">
 <h4>6. Military Satellites</h4>
 <p>RISAT Series: Radar Imaging Satellite (RISAT) satellites provide all-weather surveillance and are used for defense and strategic applications. RISAT-1 and RISAT-2 are key examples.</p>
-Famous Satellites Of the World
-Hubble Space Telescope: Orbits Earth and provides breathtaking images and data of distant galaxies and celestial objects.
-GPS Satellites: Part of the Global Positioning System, which helps with navigation and location services worldwide.
-GOES Satellites: Provide real-time weather data and images of Earth’s atmosphere and weather systems.
+
+<div className='famous'>
+  <h4>➔ Famous Satellites Of the World</h4>
+  <div className='fam'>
+  <span className='highlight'>‣ Hubble Space Telescope:</span> Orbits Earth and provides breathtaking images and data of distant galaxies and celestial objects.
+</div>
+
+<div className='fam'>
+<span className='highlight'>‣ GPS Satellites:</span> Part of the Global Positioning System, which helps with navigation and location services worldwide.</div>
+<div className='fam'>
+<span className='highlight'>‣ GOES Satellites:</span> Provide real-time weather data and images of Earth’s atmosphere and weather systems.</div>
+</div>
 </div>
 </div>
 <div className="pi">
-  <img id="Photo"src="/image/Satelite.jpg" alt="" />
+  <img id="Photo"src="../public/image/Satelite.jpg" alt="" />
   <h3>Indian Satelite</h3>
   </div>
 </div>
