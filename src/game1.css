@@ -4,12 +4,6 @@
     box-sizing: border-box;
   }
   
-  .body2{
-    height: 100vh;
-    display: flex;
-    background: #716009;
-  }
-  
   .memory-game {
     width: 640px;
     height: 640px;
