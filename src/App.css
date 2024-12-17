@@ -121,7 +121,7 @@ body {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  object-fit:cover; /* Ensure proper screen fitting */
+  object-fit:fill; /* Ensure proper screen fitting */
  
 }
 
@@ -161,12 +161,17 @@ body {
   }
   
 }
+@media screen and (max-width:550px)
+{
+  .container p{
+    width: 100%;
+  }
+}
 @media screen and (max-width:390px){
   .navbar a{
     padding: 10px 4px;
   }
-  .container p{
-    width:100%;
-  }
+ 
   
 }
+
