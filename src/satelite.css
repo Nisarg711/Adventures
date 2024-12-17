@@ -9,17 +9,13 @@
 }
 
 #first1{
-    font-size: 25px;
-    margin-bottom: 60px;
-    margin-left: 36%;
+   text-align: center;
 }
 .info{
     margin: 10px;
 }
 
-.Sata{
-    margin-left: 20px;
-}
+
 
 .Sata h4{
     margin: 5px;
@@ -72,13 +68,22 @@
         flex-direction: column;
     }
 
-    #first1{
-        margin-left: 20%;
-    }
+
 }
 
-@media  (max-width: 450px){
-    .Sata{
-        margin-left: 90px;
+
+@media screen and (max-width: 280px) {
+    #Photo {
+        width: 190px;
+        height: 120px;
+    }
+    .Sata h3 {
+        color: blueviolet;
+        margin-top: 20px;
+        /* margin-left: 10px; */
+        font-size: 20px;
+    }
+    .satal{
+        font-size: 15px;
     }
 }
