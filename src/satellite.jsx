@@ -3,7 +3,7 @@ import './satelite.css'
 const satellite = () => {
   return (
     <div className='top'>
-      <h1>SATELLITES</h1>
+      <h1 className='satal'>SATELLITES</h1>
   
   <div className="Sata">
 <p id='first1'>The Journey has just begun…..</p>
@@ -61,7 +61,7 @@ Astrosat: India’s first dedicated multi-wavelength space observatory, launched
 </div>
 </div>
 <div className="pi">
-  <img id="Photo"src="../public/image/Satelite.jpg" alt="" />
+  <img id="Photo"src="/image/Satelite.jpg" alt="" />
   <h3>Indian Satelite</h3>
   </div>
 </div>
