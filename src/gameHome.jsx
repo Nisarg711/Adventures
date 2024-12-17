@@ -36,17 +36,17 @@ const gameHome = () => {
     <div>
         <div className="Gamecon">
       <div id="box1" className='box10' onClick={(e)=>{game(e)}}>
-          <img id="game"src="../public/Game image/NUm1.webp" alt="" />
+          <img id="game"src="/Game image/NUm1.webp" alt="" />
       </div>
       <div id="box2"  className='box10'onClick={(e)=>{game(e)}}>
-          <img id="game" src="../public/Game image/num2.png" alt="" />
+          <img id="game" src="/Game image/num2.png" alt="" />
       </div>
       <div id="box3" className='box10' onClick={(e)=>{game(e)}}>
-          <img id="game"src="../public/Game image/num3.png" alt="" />
+          <img id="game"src="/Game image/num3.png" alt="" />
       </div>
     
       <div id="box4" className='box10' onClick={(e)=>{game(e)}}>
-          <img  id="game" src="../public/Game image/num4.png" alt="" />
+          <img  id="game" src="/Game image/num4.png" alt="" />
           </div>
       
           </div>
