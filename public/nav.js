@@ -11,18 +11,7 @@ const nav = () => {
     rocket.style.left = '45%';
 
     // Function to create and animate smoke
-    function createSmoke(x, y) {
-      const smoke = document.createElement('div');
-      smoke.className = 'smoke';
-      smoke.style.top = y + 'px';
-      smoke.style.left = x + 'px';
-      document.body.appendChild(smoke);
-
-      // Remove smoke element after animation is complete
-      setTimeout(() => {
-        smoke.remove();
-      }, 4000);
-    }
+   
 
     // Start rocket animation and smoke creation
     setTimeout(() => {
@@ -55,7 +44,7 @@ const nav = () => {
     setTimeout(() => {
       document.querySelector('.navbar').style.opacity = 1;
       document.querySelector('.container').style.opacity = 1;
-    }, 4500);
+    }, 1);
   }, []);
 
   
