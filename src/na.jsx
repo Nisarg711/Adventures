@@ -54,10 +54,8 @@ const nav = () => {
   </nav>
 
   
-  <video autoPlay loop muted playsInline className="back">
-        <source src="/video/video.mp4" type="video/mp4" />
-         
-      </video> 
+    <img src="/video/pin2.jpg" alt="" srcset="" className='back' />
+
 
    <div className="container">
     
@@ -68,7 +66,7 @@ const nav = () => {
 Different ongoing and past projects need  Indians to know them and boast about them.</p>
 
 
-      <p className="go"> Let’s Liftoff to learning….</p>
+      <h3 className="go"> Let’s Liftoff to learning….</h3>
    </div>
    
 
