@@ -1,77 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Agbalumo&family=Caveat:wght@400..700&family=Lilita+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Rouge+Script&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
 .Project{
  
-     text-align: center;
-     justify-content: center;
+    text-align: center;
+    justify-content: center;
 }
+
 
 #ISRO{
-    color:  #efd96b;
-     width: auto;
-     margin: 10px;
-    text-decoration: underline;
+   color:  #efd96b;
+    width: auto;
+    margin: 10px;
+   text-decoration: underline;
+   background: #093ECF;
+background: linear-gradient(to right, #093ECF 0%, #CF03AD 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
-
+h4{
+    font-size: 25px;
+    line-height: 34px;
+    /* font-family: "Rouge Script", cursive; */
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Agbalumo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background: #FFFF00;
+background: linear-gradient(to right, #FFFF00 0%, #DB0000 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
 
 #ISRO2{
-    color: aqua;
-    margin: 10px;
+   color: aqua;
+   margin: 10px;
 }
 
 #ISRO3{
-    background-color:#086a15;
-    margin: 10px 10px;
+    color: aquamarine;
+   margin: 10px 10px;
 }
 
 h5{
-    color: aquamarine;
-    margin: 5px;
+   color: aquamarine;
+   margin: 5px;
 }
 
 .page1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 100px 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 100px 20px;
 }
 
 .page2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 100px 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 100px 20px;
 }
 
 .page1 p,.page2 p{
-    font-size: 20px;
+   font-size: 20px;
 }
 
 .project1,.project2,.project3,.project4,.project5{
-    width: 80vw;
-    border: 10px solid red;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-    background-color:#540254;
+   width: 80vw;
+   border: 10px solid red;
+   border-radius: 10px;
+   margin: 10px;
+   padding: 10px;
+   background-color:#540254;
 }
 
 
 #pro112{
-  margin-top: 10px;
-  margin-left: auto;
-  color: #0acc24;
+ margin-top: 10px;
+ margin-left: auto;
+ color: #0acc24;
 }
 
 @media  (max-width: 978px) {
-    #ISRO{
-        font-size: 30px;
-    }
+   #ISRO{
+       font-size: 30px;
+   }
 
-    .page1 p,.page2 p{
-         font-size: 20px;
-    }
+   .page1 p,.page2 p{
+        font-size: 20px;
+   }
 
-  }
-  
+ }
+ 
